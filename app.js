@@ -10,7 +10,7 @@ var express         = require("express"),
     multer          = require("multer"),
     methodOverride  = require("method-override");
     
-mongoose.connect("mongodb://localhost/shades_of_demon", {useNewUrlParser: true})    
+mongoose.connect("mongodb://localhost/shades_of_demon", {useNewUrlParser: true});
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
@@ -19,7 +19,11 @@ app.use(methodOverride("_method"));
 app.use(flash());
 
 app.get('/', function(req, res){
-    res.send("Welcome");
+    res.render("home");
+});
+
+app.get('*', function(req, res){
+    res.redirect("back");
 });
 
 app.listen(process.env.PORT, process.env.IP, function(){
