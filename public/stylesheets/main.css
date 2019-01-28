@@ -1,3 +1,59 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body{
     font-family: 'Nunito', sans-serif;
+    height: 100%;
+    margin-bottom: 60px;
+    background: #313233;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.container .text-light {
+    margin: 20px 0;
+}
+
+.intro-head{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1.05px;
+}
+
+.img-round{
+    border-radius: 50%;
+}
+
+.profile-email{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.intro-text{
+    letter-spacing: 1.05px;
+    font-size: larger;
+    font-weight: lighter;
+}
+
+.theme-color{
+    color: #313233;
+}
+
+.about-me{
+    text-align: center;
+    font-weight: bolder;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.fas{
+    color: #ffc107;
+    font-size: 200px;
 }
