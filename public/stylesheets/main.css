@@ -42,6 +42,12 @@ body{
     font-weight: lighter;
 }
 
+.about-text{
+    letter-spacing: 1.05px;
+    font-size: larger;
+    font-weight: lighter;
+}
+
 .theme-color{
     color: #313233;
 }
@@ -56,4 +62,23 @@ body{
 .fas{
     color: #ffc107;
     font-size: 200px;
+}
+
+#navbarHead{
+    font-size: 30px;
+}
+
+#navbarLinks{
+    font-size: 25px;
+}
+
+.navbar{
+    border-bottom: 1.25px solid rgba(255, 193, 7, 0.6);
+}
+
+.placeCenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
