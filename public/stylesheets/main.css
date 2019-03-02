@@ -55,11 +55,22 @@ body{
 .about-me{
     text-align: center;
     font-weight: bolder;
-    height: 100px;
+    padding-bottom: 20px;
     padding-top: 20px;
 }
 
-.fas{
+.iphone-title{
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.iphone-sub{
+    margin-bottom: 20px;
+}
+
+.icon-style{
     color: #ffc107;
     font-size: 200px;
 }

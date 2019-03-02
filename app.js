@@ -6,11 +6,8 @@ var express         = require("express"),
     flash           = require("connect-flash"),
     cloudinary      = require("cloudinary"),
     ejs             = require("ejs"),
-    mongoose        = require("mongoose"),
     multer          = require("multer"),
     methodOverride  = require("method-override");
-    
-mongoose.connect("mongodb://localhost/shades_of_demon", {useNewUrlParser: true});
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
