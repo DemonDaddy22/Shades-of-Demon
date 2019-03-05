@@ -22,6 +22,7 @@ body{
 }
 
 .intro-head{
+    font-family: 'Lobster', cursive;
     color: white;
     font-weight: bold;
     letter-spacing: 1.05px;
@@ -53,6 +54,7 @@ body{
 }
 
 .about-me{
+    font-family: 'Lobster', cursive;
     text-align: center;
     font-weight: bolder;
     padding-bottom: 20px;
