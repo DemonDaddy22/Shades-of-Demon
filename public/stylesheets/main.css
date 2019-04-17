@@ -28,6 +28,10 @@ body{
     letter-spacing: 1.05px;
 }
 
+#intro-cap{
+    transition: opacity .1s ease-in-out;
+}
+
 .img-round{
     border-radius: 50%;
 }
@@ -94,4 +98,8 @@ body{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.rounded{
+    box-shadow: 5px 10px;
 }
