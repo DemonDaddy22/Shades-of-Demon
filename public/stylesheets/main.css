@@ -1,4 +1,4 @@
-html {
+/* html {
     position: relative;
     min-height: 100%;
 }
@@ -102,4 +102,149 @@ body{
 
 .rounded{
     box-shadow: 5px 10px;
+} */
+
+body {
+	font-family: 'Roboto Mono', monospace;
+	background: linear-gradient(
+		120deg,
+		rgb(181, 252, 179) 0%,
+		rgb(181, 252, 179) 50%,
+		rgb(81, 160, 101) 50%,
+		rgb(81, 160, 101) 100%
+	);
+}
+.topNav {
+	background-image: url("../images/auto2.png");
+	height: 90vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.main-container {
+	height: 100%;
+	margin-top: 6rem;
+	margin-left: 6rem;
+	margin-right: 6rem;
+	background-color: #fcfcfc;
+	padding-bottom: 5rem;
+}
+#canvas {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+	overflow: hidden;
+}
+nav .navbar-brand {
+	font-weight: 700;
+	font-size: 1.5rem;
+	letter-spacing: 3px;
+}
+nav .nav-link {
+	font-weight: 400;
+	font-size: 1.25rem;
+	letter-spacing: 2px;
+}
+nav.navbar a:hover {
+	color: rgb(255, 215, 104) !important;
+	transition: all 0.5s linear;
+}
+.topNav h1 {
+	margin-top: 12%;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px rgb(58, 58, 58);
+}
+.topNav p {
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-shadow: 1px 1px rgb(58, 58, 58);
+}
+.social-links {
+	width: 22%;
+}
+.social-links a {
+	font-size: 2rem;
+	text-shadow: 1.5px 1.5px rgb(58, 58, 58);
+}
+.social-links i:hover {
+	color: rgb(255, 215, 104);
+	transition: all 0.5s linear;
+}
+.profile-img {
+	margin-top: 4.6%;
+}
+.profile-img img {
+	height: 250px;
+	width: 250px;
+}
+.about-section {
+	width: 80%;
+	margin-top: 15%;
+}
+.about-section h3 {
+	font-weight: 500;
+	letter-spacing: 1px;
+	color: #103b31;
+	font-size: 2rem;
+}
+.about-section hr {
+	width: 60%;
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.about-text {
+	width: 60%;
+	margin-top: 5%;
+	letter-spacing: 0.8px;
+}
+.project-section {
+	margin-top: 5%;
+}
+.gallery-section {
+	margin-top: 8.25%;
+}
+.project-section,
+.gallery-section {
+	width: 100%;
+	height: 200px;
+	background-image: radial-gradient(at top left, rgb(102, 233, 167), rgb(18, 100, 62));
+}
+.project-section .row,
+.gallery-section .row {
+	height: 100%;
+	width: 100%;
+}
+.project-section .btn,
+.gallery-section .btn {
+	box-shadow: 1.75px 2.25px rgba(0, 0, 0, 0.2);
+}
+.project-quote,
+.gallery-quote {
+	border-left-style: solid;
+	border-left-color: #ffffff;
+	border-left-width: 6px;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	letter-spacing: 0.75px;
+}
+.project-carousel {
+	width: 80%;
+	margin-top: 7rem;
+}
+.carousel-item img {
+	height: 600px;
+}
+.footer {
+	background-color: #103b31;
+	height: 80px;
+	margin-left: 6rem;
+	margin-right: 6rem;
+	margin-bottom: 6rem;
+	padding-top: 25px;
 }

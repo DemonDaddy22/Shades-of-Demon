@@ -23,6 +23,8 @@
 		"ejs": "^2.6.1",
 		"express": "^4.16.4",
 		"method-override": "^3.0.0",
-		"mongoose": "^5.4.6"
+		"mongoose": "^5.4.6",
+		"path": "^0.12.7",
+		"video.js": "^7.6.5"
 	}
 }
