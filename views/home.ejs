@@ -156,27 +156,11 @@
     
 <% include ./partials/footer %> -->
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Shades of Demon</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,500i,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="/stylesheets/main.css"></link>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ocanvas/2.8.1/ocanvas.min.js"></script>
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
-    crossorigin="anonymous"></script>
-</head>
-<body>
-    <div class="main-container">
+<!-- APPLY TEXT SHADOW ON ALL HEADINGS -->
+<!-- CHANGE THE BRAND LOGO -->
+
+<% include ./partials/header %>
+
         <div class="topNav">
             <nav class="navbar navbar-dark navbar-expand-lg">
                 <a class="navbar-brand" href="/home">SHADES OF DEMON</a>
@@ -189,7 +173,7 @@
                             <a class="nav-link text-white" href="#about-link">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">PROJECTS</a>
+                            <a class="nav-link text-white" href="/projects">PROJECTS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#">GALLERY</a>
@@ -201,8 +185,8 @@
                 </div>
             </nav>
             <h1 class="display-3 text-white text-center">Hey, I am Rohan Gupta!</h1>
-            <p class="text-white text-center">I am an incoming SDE at OYO, who loves<br>to create beautiful websites 
-            and write clean code.<br>Also, I am ever-ready for FIFA and Cricket!</p>
+            <p class="text-white text-center">I am an SDE intern at OYO, who loves<br>to create websites 
+            and write useful scripts.<br>Also, I am ever-ready for FIFA and Cricket!</p>
             <div class="d-flex justify-content-center mt-4">
                 <div class="d-flex justify-content-around social-links">
                     <span>
@@ -344,11 +328,7 @@
                 Here are some of the moments captured by me in my mobile phone.
                 If you like them, then do follow my photography page on Instagram which
                 goes by the name <a href="https://www.instagram.com/shades_of_demon/" target="_blank">Shades_of_Demon</a> and be a part of
-                my photography journey!<br><br>
-                If you are fascinated by Lensball photography and were wondering to buy one, now
-                is the perfect time! Use my code <strong><mark>SHADESOFDEMON</mark></strong> and get an additional
-                <strong><mark>15%</mark></strong> on your entire order!<br>
-                Visit <a href="https://lensball.com/" class="text-decoration-none text-info" target="_blank">https://lensball.com/</a> and start Lensballing! 
+                my photography journey!<br><br> 
             </p>
         </div>
         <div class="gallery-container">
@@ -452,21 +432,5 @@
                 </div>
             </div>
         </div>
-    </div>
-    <footer class="footer">
-        <div class="container">
-            <p class="text-light">
-                <span style="color: #e9e9e9;">&copy; Shades of Demon 2019</span>
-                <span id="footer-links">
-                    <a class="text-white text-decoration-none" href="#">PROJECTS</a>
-                    <a class="text-white text-decoration-none pl-3" href="#">GALLERY</a>
-                    <a class="text-white text-decoration-none pl-3" href="#">CONTACT</a>
-                </span>
-            </p>
-        </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-</body>
-</html>
+    
+<% include ./partials/footer %>

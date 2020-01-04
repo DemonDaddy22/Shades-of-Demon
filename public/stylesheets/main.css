@@ -106,13 +106,7 @@ body{
 
 body {
 	font-family: 'Roboto Mono', monospace;
-	background: linear-gradient(
-		120deg,
-		rgb(181, 252, 179) 0%,
-		rgb(181, 252, 179) 50%,
-		rgb(81, 160, 101) 50%,
-		rgb(81, 160, 101) 100%
-	);
+	background: linear-gradient(to left, rgba(24, 105, 51, 0.8), rgba(135, 209, 51, 0.9));
 }
 .topNav {
 	background-image: url("../images/auto2.png");
@@ -268,7 +262,7 @@ nav.navbar a:hover {
 		#414345,
 		#232526
 	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	margin: 3rem auto;
+	margin: 2rem auto;
 	padding: 3rem;
 	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
 }
@@ -308,6 +302,30 @@ nav.navbar a:hover {
 	height: 400px;
 	border-radius: 10px;
 }
+.project-nav {
+	background-color: #103b31;
+}
+.active-link {
+	border-bottom: 2px solid rgb(255, 215, 104);
+}
+#project-title {
+	color: #103b31;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+}
+#projects-desc {
+	color: #103b31;
+}
+#projects-page .row {
+	margin-left: 0;
+}
+.projects-row-even {
+	width: 100%;
+	background: #38aa85;
+}
+.projects-img {
+	box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+}
 .footer {
 	background-color: #103b31;
 	height: 100px;
@@ -321,5 +339,5 @@ nav.navbar a:hover {
 }
 #footer-links a:hover {
 	color: rgb(255, 215, 104) !important;
-    transition: all 0.5s linear;
+	transition: all 0.5s linear;
 }

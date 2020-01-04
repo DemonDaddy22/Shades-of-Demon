@@ -1,0 +1,47 @@
+<% include ./partials/header %>
+
+<nav class="px-5 navbar navbar-expand-lg navbar-light project-nav">
+    <a class="navbar-brand text-white" href="/home">SHADES OF DEMON</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active-link">
+                <a class="nav-link text-white disabled" href="#">PROJECTS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">GALLERY</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">CONTACT</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div id="projects-page">
+    <div class="row my-5 py-2">
+        <div class="container">
+           <h1 id="project-title" class="py-3">PROJECTS</h1>
+           <p id="project-desc">I have worked with various technologies like Python, NodeJS, ExpressJS,<br>
+            ReactJS, HTML, CSS, JavaScript, MySQL and MongoDB for creating numerous projects.<br>
+            Here is a list of some of my projects. For complete code and more projects,<br>visit my <a class="text-success" href="https://github.com/DemonDaddy22">GitHub</a> profile.</p>
+        </div>
+    </div>
+    <div class="projects-list">
+        <div class="projects-row-even row my-5 py-5 px-5">
+            <div class="col-lg-4">
+                <img src="https://images.unsplash.com/photo-1545572695-789c1407474c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80" height="400" width="300" class="rounded projects-img">
+            </div>
+            <div class="col-lg-8 pt-lg-5">
+                <h3 class="text-white text-center py-lg-3">YelpCamp</h3>
+                <ul class="text-white">
+                    <li>An interactive and responsive website that allows users to create a profile, add campground or view campgrounds added by other users and also interact with them by commenting or reviewing the campgrounds.</li>
+                    <li>The front end is built using HTML, CSS, JavaScript and back end is developed using NodeJS, ExpressJS, MongoDB.</li>
+                    <li>Want to try out YelpCamp, click <a class="text-warning" href="https://yelp-camper.herokuapp.com/">here</a> and start camping!</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<% include ./partials/footer %>

@@ -46,6 +46,10 @@ app.get('/home', (req, res) => {
 	res.redirect('/');
 });
 
+app.get('/projects', (req, res) => {
+	res.render('projects');
+});
+
 app.get('*', (req, res) => {
 	// CREATE AN ERROR PAGE TEMPLATE
 	res.redirect('back');
