@@ -308,15 +308,18 @@ nav.navbar a:hover {
 .active-link {
 	border-bottom: 2px solid rgb(255, 215, 104);
 }
-#project-title {
+#projects-title,
+#gallery-page-title {
 	color: #103b31;
 	font-weight: bold;
 	letter-spacing: 0.5px;
 }
-#projects-desc {
+#projects-desc,
+#gallery-page-desc {
 	color: #103b31;
 }
-#projects-page .row {
+#projects-page .row,
+#gallery-page .row {
 	margin-left: 0;
 }
 .projects-row-even {

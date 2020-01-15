@@ -50,6 +50,10 @@ app.get('/projects', (req, res) => {
 	res.render('projects');
 });
 
+app.get('/gallery', (req, res) => {
+	res.render('gallery');
+});
+
 app.get('*', (req, res) => {
 	// CREATE AN ERROR PAGE TEMPLATE
 	res.redirect('back');
